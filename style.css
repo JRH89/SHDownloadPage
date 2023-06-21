@@ -86,7 +86,12 @@ footer {
     text-align: center;
     color: #868686;
     font-size: 0.75rem;
+
 }
+
+footer a {
+color:#ffffff
+
 footer ul {
     margin: 0;
     padding: 0;
