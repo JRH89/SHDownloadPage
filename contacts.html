@@ -1,32 +1,114 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jared's Contacts</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-</head>
-<body>
-    <div style="background-color: black; color: white; background-image: linear-gradient(black, rgba(8, 8, 81, 0.561), black);">
-        <hr>
-        <h1 style="text-align: center; font-size: 60px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><b>Jared Robert Hooker</b></h1>
-        <h2 style="text-align:center; font-size: 30px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color:gray"><i>Game Developer / Software Engineer</i></h2>
-        <br>
-        <div style="text-align:center" class="social-icons">
-          <a href="https://linkedin.com/in/jaredhooker" target="">
-           <i class="fab fa-linkedin fa-2x"></i>
-          </a>
-          <a href="https://github.com/JRH89" target="">
-           <i class="fab fa-github fa-2x"></i>
-          </a>
-          <a href="mailto:gamedevjared@gmail.com" target="">
-            <button class="email-btn">Email</button>
-          </a>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sorting Hat</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <script
+      type="text/javascript"
+      src="script.js"
+    ></script>
+  </head>
+  <body class="bg-gray-100">
+    <header class="py-8">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl font-bold text-gray-800">Sorting Hat 4.0</h1>
+        <h2 class="text-2xl text-gray-600 mt-2">
+          Sort all your numerical data with ease!
+        </h2>
+        <a
+          class="btn mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded"
+          href="#"
+          >Download Now</a
+        >
+        <div class="submenu mt-4">
+          <a
+            class="text-blue-500"
+            href="https://github.com/JRH89/Sorting-Hat/releases/download/v4.0/Sorting.Hat.4.0.exe"
+            >Free from Github</a
+          >
         </div>
-    </body>
-<br>
-<hr>
+      </div>
+    </header>
+
+    <section class="features py-16">
+      <div class="container mx-auto px-4">
+        <div class="flex items-center">
+          <img
+            src="https://www.sololearn.com/uploads/img_blue_pin.png"
+            alt=""
+            class="w-12 h-12"
+          />
+          <p class="text-xl ml-4">Simple and intuitive GUI</p>
+        </div>
+        <div class="flex items-center mt-8">
+          <img
+            src="https://www.sololearn.com/uploads/img_blue_chart.png"
+            alt=""
+            class="w-12 h-12"
+          />
+          <p class="text-xl ml-4">
+            Extracts and sorts numbers from any input data
+          </p>
+        </div>
+        <div class="flex items-center mt-8">
+          <img
+            src="https://www.sololearn.com/uploads/img_blue_msg.png"
+            alt=""
+            class="w-12 h-12"
+          />
+          <p class="text-xl ml-4">Uses the Radix sorting algorithm</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote py-16">
+      <blockquote class="container mx-auto px-4">
+        <p class="text-2xl">
+          "My work is done faster than ever, with more accuracy too!"
+        </p>
+        <cite class="block mt-4">Future You</cite>
+      </blockquote>
+    </section>
+
+    <footer class="bg-gray-800 py-8">
+      <div class="container mx-auto px-4">
+        <ul class="flex justify-center">
+          <li class="mr-6">
+            <a
+              class="text-gray-400 hover:text-gray-200"
+              href="https://github.com/JRH89/Sorting-Hat"
+              >About</a
+            >
+          </li>
+          <li class="mr-6">
+            <a
+              class="text-gray-400 hover:text-gray-200"
+              href="https://hooker-hill-studios.vercel.app"
+              >Hooker Hill Studios</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-gray-400 hover:text-gray-200"
+              href="https://have-mycard.vercel.app/api/3dhrOh3i"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
