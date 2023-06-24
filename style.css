@@ -12,6 +12,7 @@ body
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.45;
     height: 100vh;
+    background: #353535;
 }
 
 header
@@ -123,7 +124,7 @@ footer
     padding: 32px 0;
     text-align: center;
     color: #868686;
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 footer ul
@@ -140,8 +141,8 @@ footer li
 
 footer li a
 {
-    padding: 6px;
-    font-size: 0.875rem;
+    padding: 8px;
+    font-size: 1rem;
     text-decoration: none;
     color: #c3c3c3;
 }
