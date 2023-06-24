@@ -3,13 +3,12 @@
 html
 {
     font-size: 16px;
-
 }
 
 body
 {
     margin: 0;
-    padding: 10;
+    padding: 0;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.45;
     height: 100vh;
@@ -19,7 +18,7 @@ header
 {
     color: #FFFFFF;
     background-color: #284b63;
-    padding: 60px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
@@ -93,6 +92,7 @@ section
 
 blockquote
 {
+
     margin: 0;
     padding: 0;
     text-align: center;
@@ -118,21 +118,12 @@ blockquote cite:before
 
 footer
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     background: #353535;
-    padding: 10px 0;
+    padding: 32px 0;
     text-align: center;
     color: #868686;
     font-size: 0.75rem;
-
-}
-
-footer a
-{
-    color: #ffffff
 }
 
 footer ul
@@ -140,19 +131,16 @@ footer ul
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
-    flex-direction: row;
 }
 
 footer li
 {
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
 }
 
 footer li a
 {
-    padding: 10px;
+    padding: 6px;
     font-size: 0.875rem;
     text-decoration: none;
     color: #c3c3c3;
@@ -161,7 +149,6 @@ footer li a
 footer li a:hover
 {
     color: white;
-    scale: 90;
 }
 
 .submenu
@@ -189,6 +176,8 @@ footer li a:hover
 {
     background-color: #468486;
 }
+
+
 
 @media screen and (max-width: 480px)
 {
@@ -247,12 +236,15 @@ footer li a:hover
         font-size: 0.875rem;
     }
 
-
+    footer
+    {
+        padding: 30px 0 10px 0;
+    }
 
     footer li
     {
         display: block;
-        margin: 1px 0;
+        margin: 5px 0;
     }
 
     .submenu
@@ -260,19 +252,4 @@ footer li a:hover
         width: 100%;
         position: relative;
     }
-}
-
-
-.email-btn
-{
-    background-color: rgb(7, 30, 209);
-    color: rgb(2, 10, 41);
-    border: none;
-    width: 80px;
-    height: 35px;
-    font-size: 25px;
-    display: inline-block;
-    vertical-align: middle;
-    font-weight: bolder;
-    border-radius: 3px;
 }
